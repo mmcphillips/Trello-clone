@@ -1,0 +1,42 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier", "react-hooks"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "react/sort-comp": 0,
+    "no-use-before-define": 0,
+    "camelcase": 0,
+    "react/destructuring-assignment": 0,
+    "no-console": 0,
+    "no-param-reassign": 0,
+    "class-methods-use-this": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/no-array-index-key": 0,
+    "jsx-a11y/media-has-caption": 0,
+    "no-bitwise": 0,
+    "no-plusplus": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off"
+  },
+  "globals": {
+    "window": "writable",
+    "document": "writable",
+    "navigator": "writable",
+    "fetch": "writable",
+    "performance": "writable",
+    "WebSocket": "writable",
+    "btoa": "writable",
+    "Blob": "writable",
+    "EventSource": "writable",
+    "FileReader": "writable",
+    "FormData": "writable",
+    "File": "writable",
+    "WheelEvent": "writable"
+  }
+}
